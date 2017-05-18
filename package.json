@@ -1,0 +1,30 @@
+{
+  "name": "@angularclass/web-cached-view",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngularClass/angular-web-cached-view.git"
+  },
+  "author": "AngularClass",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AngularClass/angular-web-cached-view/issues"
+  },
+  "homepage": "https://github.com/AngularClass/angular-web-cached-view#readme",
+  "devDependencies": {
+    "@angular/common": "2.1.2",
+    "@angular/core": "2.1.2",
+    "rxjs": "5.0.0-rc.1",
+    "zone.js": "0.6.26",
+    "typescript": "2.0.3",
+    "webpack": "^1.13.0",
+    "typings": "^0.7.9"
+  },
+  "dependencies": {
+  }
+}
