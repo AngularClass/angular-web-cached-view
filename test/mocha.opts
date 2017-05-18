@@ -1,0 +1,4 @@
+--webpack-config ./build/webpack.testing.js
+--glob *.spec.ts
+--recursive
+src

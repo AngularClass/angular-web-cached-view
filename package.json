@@ -19,12 +19,12 @@
   "devDependencies": {
     "@angular/common": "2.1.2",
     "@angular/core": "2.1.2",
+    "mocha": "^3.4.1",
     "rxjs": "5.0.0-rc.1",
-    "zone.js": "0.6.26",
     "typescript": "2.0.3",
+    "typings": "^0.7.9",
     "webpack": "^1.13.0",
-    "typings": "^0.7.9"
+    "zone.js": "0.6.26"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
