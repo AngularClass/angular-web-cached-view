@@ -1,31 +1,28 @@
-# Angular Lib starter
-> Universal, AOT, Web Workers, ready lib starter. Use for your Angular libs
+<p align="center">
+  <a href="http://courses.angularclass.com/courses/angular-2-fundamentals" target="_blank">
+    <img width="438" alt="Angular 2 Fundamentals" src="https://cloud.githubusercontent.com/assets/1016365/17200649/085798c6-543c-11e6-8ad0-2484f0641624.png">
+  </a>
+</p>
 
+---
 
-## Getting started
-* fork this
-* clear the git history `git init .`
-* add your source code in `src`.
-* change the entry in `webpack.config.js`
-* change the output filnames in `package.json` to match your src files and webpack
-  * `"main", "jsnext:main", "module", "types"`
-* build your project `yarn release` or `npm run release`
+# Angular Web Cached View
+> Allow rendering of Angular apps in cached views
 
-## Builds
-This starter prepares 2 different versions for builds of your lib
-* **esm** or ES2015 Modules
-  * this build is a transpilation of your Typescript code to ES5 and ES2015 modules. Its' not bundled. This is needed for treeshaking when users use your lib
-* **UMD**
-  * this is a bundle of ES5 code. What you would typically get from webpack or rollup.
+___
 
-The build system generates AOT metadata too, so you're good.
+enjoy — **AngularClass**
 
 
 ## Scripts
 * `"test"`: runs the test in mocha on node
-* `"build:esm"`: builds the esm versions
-* `"build:bundle"`: builds the UMD version
-* `"build:aot"`: makes it work for aot
-* `"build"`: does all the above
-* `"copy"`: copies over file to dist
-* `"release"`: does all the above
+* `"rm"`: removes dist folder
+* `"build"`: runs rm, then runs webpack
+
+
+<br><br>
+
+[![AngularClass](https://cloud.githubusercontent.com/assets/1016365/9863770/cb0620fc-5af7-11e5-89df-d4b0b2cdfc43.png  "Angular Class")](https://angularclass.com)
+## [AngularClass](https://angularclass.com)
+> Learn AngularJS, Angular 2, and Modern Web Development from the best.
+> Looking for corporate Angular training, want to host us, or Angular consulting? patrick@angularclass.com
