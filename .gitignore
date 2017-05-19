@@ -2,6 +2,7 @@ node_modules
 *.log
 *.tmp
 DS*
+.DS_Store
 typings
 dist
 .vscode

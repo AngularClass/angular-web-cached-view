@@ -8,7 +8,7 @@ const config = {
     extensions: ['.ts', '.js', '.html', '.scss', '.css']
   },
   resolveLoader: {
-    moduleExtensions: ['-loader']                                                      
+    moduleExtensions: ['-loader']
   },
   target: 'node',
   externals: [nodeExternals()],
