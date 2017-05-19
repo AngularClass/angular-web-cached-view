@@ -11,6 +11,8 @@
 
 ___
 
+> npm i --save @angularclass/web-cached-view
+
 enjoy — **AngularClass**
 
 
