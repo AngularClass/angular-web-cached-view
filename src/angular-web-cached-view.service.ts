@@ -30,11 +30,15 @@ export class WebCacheLocation extends Location {
   }
 
   go(path: string, query: string = '') {
+    const host = location.host;
+    if (GOOGLE_WEBCACHE.test(host)) { return; }
     const url = createOriginUrl(path);
     this._platformStrategy.pushState(null, '', url, query);
   }
 
   replaceState(path: string, query: string = '') {
+    const host = location.host;
+    if (GOOGLE_WEBCACHE.test(host)) { return; }
     const url = createOriginUrl(path);
     this._platformStrategy.replaceState(null, '', url, query);
   }
